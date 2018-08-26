@@ -17,7 +17,15 @@ export default function(state = initialState, action) {
     case ASYNC_TEST:
     return {
       ...state,
-      result2: action.payload,
+      users: action.users,
+      result1: action.result1, 
+      result2: action.result2, 
+      result3: action.result3, 
+      result4: action.result4, 
+      result5: action.result5, 
+      result6: action.result6, 
+      result7: action.result7, 
+      result8: action.result8, 
     }
 
     case AWAIT_TEST:

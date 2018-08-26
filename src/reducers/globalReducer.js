@@ -11,25 +11,25 @@ export default function(state = initialState, action) {
     case TEST_ACTION:
     return {
       ...state,
-      test: action.payload
+      result1: action.payload
     }
     
     case ASYNC_TEST:
     return {
       ...state,
-      async: action.payload,
+      result2: action.payload,
     }
 
     case AWAIT_TEST:
     return {
       ...state,
-      await: action.payload,
+      result3: action.payload,
     }
 
     case RESULTS_TEST:
     return {
       ...state,
-      results: action.payload,
+      result4: action.payload,
     }
 
     default:

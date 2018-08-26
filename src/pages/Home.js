@@ -13,7 +13,7 @@ const Title = styled.h1`
 
 // Create a Wrapper component that'll render a <section> tag with some styles
 const Wrapper = styled.section`
-  padding: 4em;
+  padding: 10px;
   text-align: center;
 `;
 
@@ -25,7 +25,7 @@ class Home extends React.Component{
     return (
     <Wrapper>
       <Title>
-        There are currently {this.props.global.users} online!
+        There are currently {this.props.global.users} users online!
       </Title>
       <Users
         UserData={this.props.global.result1}
@@ -52,6 +52,54 @@ class Home extends React.Component{
         UserData={this.props.global.result8}
       />
       <Users
+        UserData={this.props.global.result9}
+      />
+      <Users
+        UserData={this.props.global.result10}
+      />
+      <Users
+        UserData={this.props.global.result11}
+      />
+      <Users
+        UserData={this.props.global.result12}
+      />
+      <Users
+        UserData={this.props.global.result13}
+      />
+      <Users
+        UserData={this.props.global.result14}
+      />
+      <Users
+        UserData={this.props.global.result15}
+      />
+      <Users
+        UserData={this.props.global.result16}
+      />
+      <Users
+        UserData={this.props.global.result17}
+      />
+      <Users
+        UserData={this.props.global.result18}
+      />
+      <Users
+        UserData={this.props.global.result19}
+      />
+      <Users
+        UserData={this.props.global.result20}
+      />
+      <Users
+        UserData={this.props.global.result21}
+      />
+      <Users
+        UserData={this.props.global.result22}
+      />
+      <Users
+        UserData={this.props.global.result23}
+      />
+      <Users
+        UserData={this.props.global.result24}
+      />
+      <Users
         UserData={this.props.global.result1}
       />
       <Users
@@ -76,28 +124,52 @@ class Home extends React.Component{
         UserData={this.props.global.result8}
       />
       <Users
-        UserData={this.props.global.result1}
+        UserData={this.props.global.result9}
       />
       <Users
-        UserData={this.props.global.result2}
+        UserData={this.props.global.result10}
       />
       <Users
-        UserData={this.props.global.result3}
+        UserData={this.props.global.result11}
       />
       <Users
-        UserData={this.props.global.result4}
+        UserData={this.props.global.result12}
       />
       <Users
-        UserData={this.props.global.result5}
+        UserData={this.props.global.result13}
       />
       <Users
-        UserData={this.props.global.result6}
+        UserData={this.props.global.result14}
       />
       <Users
-        UserData={this.props.global.result7}
+        UserData={this.props.global.result15}
       />
       <Users
-        UserData={this.props.global.result8}
+        UserData={this.props.global.result16}
+      />
+      <Users
+        UserData={this.props.global.result17}
+      />
+      <Users
+        UserData={this.props.global.result18}
+      />
+      <Users
+        UserData={this.props.global.result19}
+      />
+      <Users
+        UserData={this.props.global.result20}
+      />
+      <Users
+        UserData={this.props.global.result21}
+      />
+      <Users
+        UserData={this.props.global.result22}
+      />
+      <Users
+        UserData={this.props.global.result23}
+      />
+      <Users
+        UserData={this.props.global.result24}
       />
     </Wrapper>
     );//return

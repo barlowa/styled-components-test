@@ -15,7 +15,7 @@ import {keyframes} from "styled-components";
 export const Container = styled.div`
   display: inline-block;
   width: auto;
-  margin: 10px;
+  margin: 5px;
 `;
 
 export const Picture = styled.div`

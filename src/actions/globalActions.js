@@ -38,7 +38,7 @@ export const testAction = () => dispatch => {
     })
 
     let promise5 = new Promise((resolve, reject) =>{
-      fetch('https://reqres.in/api/users?page=5')
+      fetch('https://reqres.in/api/users?page=1')
       .then(response => response.json())
       .then((results) =>{
         resolve(results)
@@ -46,7 +46,7 @@ export const testAction = () => dispatch => {
     })
 
     let promise6 = new Promise((resolve, reject) =>{
-      fetch('https://reqres.in/api/users?page=6')
+      fetch('https://reqres.in/api/users?page=2')
       .then(response => response.json())
       .then((results) =>{
         resolve(results)
@@ -54,7 +54,7 @@ export const testAction = () => dispatch => {
     })
 
     let promise7 = new Promise((resolve, reject) =>{
-      fetch('https://reqres.in/api/users?page=7')
+      fetch('https://reqres.in/api/users?page=3')
       .then(response => response.json())
       .then((results) =>{
         resolve(results)
@@ -62,12 +62,139 @@ export const testAction = () => dispatch => {
     })
 
     let promise8 = new Promise((resolve, reject) =>{
-      fetch('https://reqres.in/api/users?page=8')
+      fetch('https://reqres.in/api/users?page=4')
       .then(response => response.json())
       .then((results) =>{
         resolve(results)
       })
     })
+
+    let promise9 = new Promise((resolve, reject) =>{
+      fetch('https://reqres.in/api/users?page=2')
+      .then(response => response.json())
+      .then((results) =>{
+        resolve(results)
+      })
+    })
+    let promise10 = new Promise((resolve, reject) =>{
+      fetch('https://reqres.in/api/users?page=1')
+      .then(response => response.json())
+      .then((results) =>{
+        resolve(results)
+      })
+    })
+
+    let promise11 = new Promise((resolve, reject) =>{
+      fetch('https://reqres.in/api/users?page=2')
+      .then(response => response.json())
+      .then((results) =>{
+        resolve(results)
+      })
+    })
+
+    let promise12 = new Promise((resolve, reject) =>{
+      fetch('https://reqres.in/api/users?page=2')
+      .then(response => response.json())
+      .then((results) =>{
+        resolve(results)
+      })
+    })
+
+    let promise13 = new Promise((resolve, reject) =>{
+      fetch('https://reqres.in/api/users?page=3')
+      .then(response => response.json())
+      .then((results) =>{
+        resolve(results)
+      })
+    })
+
+    let promise14 = new Promise((resolve, reject) =>{
+      fetch('https://reqres.in/api/users?page=4')
+      .then(response => response.json())
+      .then((results) =>{
+        resolve(results)
+      })
+    })
+
+    let promise15 = new Promise((resolve, reject) =>{
+      fetch('https://reqres.in/api/users?page=1')
+      .then(response => response.json())
+      .then((results) =>{
+        resolve(results)
+      })
+    })
+
+    let promise16 = new Promise((resolve, reject) =>{
+      fetch('https://reqres.in/api/users?page=2')
+      .then(response => response.json())
+      .then((results) =>{
+        resolve(results)
+      })
+    })
+
+    let promise17 = new Promise((resolve, reject) =>{
+      fetch('https://reqres.in/api/users?page=3')
+      .then(response => response.json())
+      .then((results) =>{
+        resolve(results)
+      })
+    })
+
+    let promise18 = new Promise((resolve, reject) =>{
+      fetch('https://reqres.in/api/users?page=4')
+      .then(response => response.json())
+      .then((results) =>{
+        resolve(results)
+      })
+    })
+
+    let promise19 = new Promise((resolve, reject) =>{
+      fetch('https://reqres.in/api/users?page=2')
+      .then(response => response.json())
+      .then((results) =>{
+        resolve(results)
+      })
+    })
+    let promise20 = new Promise((resolve, reject) =>{
+      fetch('https://reqres.in/api/users?page=1')
+      .then(response => response.json())
+      .then((results) =>{
+        resolve(results)
+      })
+    })
+
+    let promise21 = new Promise((resolve, reject) =>{
+      fetch('https://reqres.in/api/users?page=2')
+      .then(response => response.json())
+      .then((results) =>{
+        resolve(results)
+      })
+    })
+
+    let promise22 = new Promise((resolve, reject) =>{
+      fetch('https://reqres.in/api/users?page=3')
+      .then(response => response.json())
+      .then((results) =>{
+        resolve(results)
+      })
+    })
+
+    let promise23 = new Promise((resolve, reject) =>{
+      fetch('https://reqres.in/api/users?page=4')
+      .then(response => response.json())
+      .then((results) =>{
+        resolve(results)
+      })
+    })
+
+    let promise24 = new Promise((resolve, reject) =>{
+      fetch('https://reqres.in/api/users?page=1')
+      .then(response => response.json())
+      .then((results) =>{
+        resolve(results)
+      })
+    })
+    
 
 
     let result1 = await promise1 
@@ -78,6 +205,22 @@ export const testAction = () => dispatch => {
     let result6 = await promise6
     let result7 = await promise7
     let result8 = await promise8
+    let result9 = await promise9 
+    let result10 = await promise10
+    let result11 = await promise11
+    let result12 = await promise12
+    let result13 = await promise13 
+    let result14 = await promise14
+    let result15 = await promise15
+    let result16 = await promise16
+    let result17 = await promise17
+    let result18 = await promise18
+    let result19 = await promise19
+    let result20 = await promise20
+    let result21 = await promise21
+    let result22 = await promise22
+    let result23 = await promise23
+    let result24 = await promise24
 
 
     dispatch({
@@ -91,6 +234,22 @@ export const testAction = () => dispatch => {
       result6: result6, 
       result7: result7, 
       result8: result8, 
+      result9: result9, 
+      result10: result10, 
+      result11: result11, 
+      result12: result12, 
+      result13: result13, 
+      result14: result14, 
+      result15: result15, 
+      result16: result16, 
+      result17: result17, 
+      result18: result18, 
+      result19: result19, 
+      result20: result20, 
+      result21: result21, 
+      result22: result22, 
+      result23: result23, 
+      result24: result24, 
     })
 
   }
